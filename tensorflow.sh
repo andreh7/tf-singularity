@@ -13,6 +13,7 @@ echo ----------
 echo installing CUDA
 echo ----------
 
+sh /mnt/$cuda  --toolkit --silent
 tar xvf /mnt/$cudnn -C /usr/local
 
 driver_path=/usr/local/NVIDIA-Linux-x86_64-$driver_version
