@@ -23,4 +23,4 @@ echo "PATH=$driver_path:\$PATH" >> /environment
 echo "export PATH LD_LIBRARY_PATH" >> /environment
 
 export LC_ALL=C
-pip install --no-cache-dir tensorflow-gpu==0.12.1
+pip install --no-cache-dir tensorflow-gpu==1.8.0
