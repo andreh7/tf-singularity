@@ -1,6 +1,6 @@
-driver_version=375.26
-cuda="cuda-linux64-rel-8.0.44-21122537.run"
-cudnn="cudnn-8.0-linux-x64-v5.1.tar"
+driver_version=390.48
+cuda="cuda_9.0.176_384.81_linux-run"
+cudnn="cudnn-9.0-linux-x64-v7.1.tar"
 sh /mnt/NVIDIA-Linux-x86_64-$driver_version.run -x
 mv NVIDIA-Linux-x86_64-$driver_version /usr/local/
 sh /mnt/links.sh $driver_version
